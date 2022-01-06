@@ -25,13 +25,13 @@
 	. = ..()
 	color = "#ffff00"
 	layer++
-	transform = transform.Scale(2, 4)
+	transform = transform.Scale(-2, -4)
 
 /turf/floor/super5/New(loc)
 	. = ..()
 	color = "#ff00ff"
 	layer++
-	transform = transform.Translate(20, 5)
+	transform = transform.Translate(-20, -5)
 
 /turf/floor/super6/New(loc)
 	. = ..()
