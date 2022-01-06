@@ -6,7 +6,38 @@
 	. = ..()
 	color = "#ff0000"
 	layer++
-	transform = transform.Scale(5)
+	transform = transform.Translate(10, 10)
+
+/turf/floor/super2/New(loc)
+	. = ..()
+	color = "#00ff00"
+	layer++
+	transform = transform.Scale(3)
+
+/turf/floor/super3/New(loc)
+	. = ..()
+	color = "#0000ff"
+	layer++
+	transform = transform.Turn(70)
+
+
+/turf/floor/super4/New(loc)
+	. = ..()
+	color = "#ffff00"
+	layer++
+	transform = transform.Scale(2, 4)
+
+/turf/floor/super5/New(loc)
+	. = ..()
+	color = "#ff00ff"
+	layer++
+	transform = transform.Translate(20, 5)
+
+/turf/floor/super6/New(loc)
+	. = ..()
+	color = "#00ffff"
+	layer++
+	transform = transform.Turn(-70)
 
 /turf/wall
     icon = 'icons/turfs.dmi'

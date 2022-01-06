@@ -1,16 +1,21 @@
 "a" = (/turf/wall,/area)
 "b" = (/turf/floor,/area)
 "c" = (/turf/floor/super,/area)
+"d" = (/turf/floor/super2,/area)
+"e" = (/turf/floor/super3,/area)
+"f" = (/turf/floor/super4,/area)
+"g" = (/turf/floor/super6,/area)
+"h" = (/turf/floor/super5,/area)
 
 (1,1,1) = {"
 aaaaaaaaaa
+agbbbbbbba
 abbbbbbbba
-abbbbbaaaa
-abbbbbabba
-abbbcbabba
-abbbbbabba
-abbbbbabba
-abbbbbbbba
+abbbbbbfba
+abbbcbbbba
+abdbbbbbba
+abbbbbbhba
+abbbbebbba
 abbbbbbbba
 aaaaaaaaaa
 "}
